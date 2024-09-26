@@ -1,5 +1,9 @@
 # SvelteKit Demo
 
+### Going to github first
+Creating new repo
+cloning it
+
 Create App<br>
 ``` npm create svelte@latest my-app```<br>
 <br>cd<br>
@@ -50,3 +54,39 @@ CHANGE THE SCRIPT TO LOOK NICER
     subtract
 </button>
 ```
+
+# Components
+
+add components folder and add component
+
+![image](https://github.com/user-attachments/assets/cdbe82e1-c44f-450f-bfe6-501f8f7e9213)
+
+# Now adding it in the other pages
+```
+<script>
+    import Nav from "$lib/components/nav.svelte";
+</script>
+<Nav/>
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+```
+
+
+# looping 
+
+
+```
+<script>
+    let array = [1,2,3,4]
+    import Nav from "$lib/components/nav.svelte";
+</script>
+<Nav/>
+<div> ABOUT</div>
+{#each array as i }
+    {#if i >2 }
+    <h1> {i}</h1>
+    {/if}
+    <div> {i} </div>
+{/each}
+```
+
