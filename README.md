@@ -2,10 +2,11 @@
 
 ### Going to github first
 Creating new repo
-cloning it
 
+Cloning it: <br>
+` git clone your-repo ` <br> <br>
 Create App<br>
-```npx sv create my-app```<br>
+```npx sv create .```<br>
 <br>cd<br>
 ```cd my-app```<br>
 <br>npm i <br>
