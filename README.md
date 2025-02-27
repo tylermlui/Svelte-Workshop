@@ -20,6 +20,23 @@ running it locally<br>
 CHANGING HOME PAGE / BASE ROUTE
 ![image](https://github.com/user-attachments/assets/0ed03548-f222-4498-86b2-c2f19d6695a4)
 
+# Components
+
+add components folder and add component
+
+![image](https://github.com/user-attachments/assets/cdbe82e1-c44f-450f-bfe6-501f8f7e9213)
+
+# Now adding it in the other pages
+```
+<script>
+    import Nav from "$lib/components/nav.svelte";
+</script>
+<Nav/>
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+```
+
+
 ADDING COUNTER ROUTE
 
 ![image](https://github.com/user-attachments/assets/16ad9712-7e96-48cb-a411-3c8a0b05aa17)
@@ -55,21 +72,6 @@ CHANGE THE SCRIPT TO LOOK NICER
 </button>
 ```
 
-# Components
-
-add components folder and add component
-
-![image](https://github.com/user-attachments/assets/cdbe82e1-c44f-450f-bfe6-501f8f7e9213)
-
-# Now adding it in the other pages
-```
-<script>
-    import Nav from "$lib/components/nav.svelte";
-</script>
-<Nav/>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-```
 
 
 # looping 
