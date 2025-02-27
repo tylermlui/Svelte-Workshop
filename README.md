@@ -5,7 +5,7 @@ Creating new repo
 cloning it
 
 Create App<br>
-``` npm create svelte@latest my-app```<br>
+```npx sv create my-app```<br>
 <br>cd<br>
 ```cd my-app```<br>
 <br>npm i <br>
